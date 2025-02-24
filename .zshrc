@@ -72,7 +72,8 @@ ZSH_HIGHLIGHT_STYLES[unknown-token]='fg=#ffa0a0'
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
-export LANG=fr_fr.UTF-8
+export LANG="fr_FR.utf8"
+export LC_ALL="fr_FR.utf8"
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
